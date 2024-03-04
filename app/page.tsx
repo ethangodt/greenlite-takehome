@@ -1,6 +1,5 @@
 import {fetchRunsByUser} from "@/utils/db";
 import styles from './home.module.css'
-import {Button} from "@/components/Button";
 import {Activity} from "@/components/Activity";
 import Link from "next/link";
 
