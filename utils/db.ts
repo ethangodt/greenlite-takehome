@@ -1,6 +1,5 @@
 import {open} from 'sqlite'
 import sqlite3 from 'sqlite3'
-import {cache} from 'react'
 import path from 'path'
 import {Activity} from "@/types";
 import {v4} from 'uuid'

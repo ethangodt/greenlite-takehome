@@ -1,14 +1,6 @@
 import {getCenterOfBounds, getDistance} from "geolib";
 import {Point} from "@/types";
 
-//
-// #CALLOUT
-// Promisified function implementation
-// - async/await
-// - promises
-// - event loop
-//
-
 export function getBrowserPosition(): Promise<Point> {
     return new Promise((resolve, reject) => {
         function onSuccess(position: GeolocationPosition) {
